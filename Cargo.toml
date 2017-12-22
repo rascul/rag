@@ -1,0 +1,18 @@
+[package]
+name = "rag"
+version = "0.0.1"
+authors = ["rascul <rascul3@gmail.com>"]
+description = "Simple logger"
+license = "MIT"
+repository = "https://github.com/rascul/rag"
+documentation = "https://docs.rs/rag"
+readme = "README.md"
+keywords = ["log"]
+
+[badges]
+travis-ci = { repository = "/rascul/rag" }
+
+[dependencies]
+chrono = "0.4"
+colored = "1.6"
+log = "0.3"
