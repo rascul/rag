@@ -10,9 +10,10 @@ use log::{Log, LogLevel, LogLevelFilter, LogMetadata, LogRecord, set_logger};
 
 #[cfg(test)]
 mod tests;
-mod error;
+pub mod error;
 
-use error::RagResult;
+pub use error::RagResult;
+pub use error::RagError;
 
 struct Logger;
 
